@@ -2,7 +2,7 @@ import json
 import openai
 import os
 # replace path below to certificate
-os.environ['REQUESTS_CA_BUNDLE'] = 'C:/Users/kasaiyed/Desktop/chatgpt-api/certificate.crt'
+#os.environ['REQUESTS_CA_BUNDLE'] = 'C:/Users/kasaiyed/Desktop/chatgpt-api/certificate.crt'
 
 try:
     with open("openaikey.json") as jsonfile:
